@@ -41,6 +41,6 @@ jobs:
       with:
        image: pier22/fidelitycard
        registry: docker.io
-       username: ${{ secrets.DOCKER_USERNAME }}-
+       username: ${{ secrets.DOCKER_USERNAME }}
        password: ${{ secrets.DOCKER_PASSWORD }}
       
